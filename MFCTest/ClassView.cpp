@@ -144,7 +144,7 @@ void CClassView::FillClassView()
 	hClass = m_wndClassView.InsertItem(_T("CFakeAppView"), 1, 1, hRoot);
 	m_wndClassView.InsertItem(_T("CFakeAppView()"), 4, 4, hClass);
 	m_wndClassView.InsertItem(_T("~CFakeAppView()"), 3, 3, hClass);
-	m_wndClassView.InsertItem(_T("GetDocument()"), 3, 3, hClass);
+	m_wndClassView.InsertItem(_T("Getliuheng()"), 3, 3, hClass);
 	m_wndClassView.Expand(hClass, TVE_EXPAND);
 
 	hClass = m_wndClassView.InsertItem(_T("CFakeAppFrame"), 1, 1, hRoot);
